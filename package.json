@@ -8,20 +8,18 @@
     "react-router": "^4.1.1"
   },
   "devDependencies": {
-    "react-scripts": "0.9.5",
     "gh-pages": "^0.12.0",
+    "react-scripts": "0.9.5",
     "serve": "^5.1.4"
-        
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
+    "build-deploy": "npm run build&&gh-pages -d build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "gh-deploy": "npm run build&&gh-pages -d build",
     "serve": "serve build"
   },
-  "homepage": "https://C-Martha.github.io/C-Martha.github.io"
+  "homepage": "https://C-Martha.github.io"
 }
