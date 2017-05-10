@@ -1,6 +1,6 @@
 {
-  "name": "spa-github-pages",
-  "version": "5.0.0",
+  "name": "marthaswebpage",
+  "version": "0.1.0",
   "private": true,
   "description": "Single Page Apps for GitHub Pages",
   "scripts": {
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/rafrex/spa-github-pages.git"
   },
-  "author": "Rafael Pedicini <code@rafrex.com>",
+  "author": "Martha Cornejo",
   "license": "MIT",
   "dependencies": {
     "prop-types": "^15.5.8",
