@@ -1,0 +1,14 @@
+.experience-card {
+  margin: 10px;
+}
+
+.category-title {
+  margin: 10px; 
+  color: red;
+}
+
+.experience-image {
+    max-width: 100%;
+    height: auto; 
+    border-radius: 8px;
+}

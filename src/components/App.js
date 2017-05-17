@@ -9,15 +9,17 @@ class App extends React.Component{
     return (
       <div>
        <AboutComponent />
-       <ExperienceComponent company="So Friendly"
+       <h2 className="category-title"> Experience </h2>
+       <ExperienceComponent company="SoFriendly"
                             title = "Developer Intern "
                             time = "June - December 2016"
                             description = "Developed and Design websites using Webflow and Worpress"
         />
+  
         <ExperienceComponent company="Code Hangar"
                             title = "Developer Intern "
                             time = "January - March 2017"
-                            description = "Developed and Design websites using Webflow and Worpress"
+                            description = "Collaborated in the development of RQLPro, a GUI application for Windows, OSX and Linux. "
         />
       </div>
     );
