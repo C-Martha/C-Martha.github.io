@@ -1,14 +1,29 @@
-.experience-card {
-  margin: 10px;
+.about-me {
+   text-align: center;
+  
+}
+
+.card {
+   margin-top: 20px; 
+   margin-bottom: 20px; 
 }
 
 .category-title {
-  margin: 10px; 
-  color: red;
+  text-align: center; 
 }
 
 .experience-image {
     max-width: 100%;
     height: auto; 
     border-radius: 8px;
+    float: left;
+    margin: 20px;
+}
+
+.experience-title {
+  text-align: left;
+}
+
+.intro-image {
+  margin-bottom: 30px; 
 }
