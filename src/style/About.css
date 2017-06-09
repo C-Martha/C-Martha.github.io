@@ -1,29 +1,48 @@
-.about-me {
-   text-align: center;
-  
+/* border box-size fix */
+
+html {
+  box-sizing: border-box;
 }
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+.section {
+    padding-bottom: 10px;
+    padding-left: 5%; 
+
+}
+
+.title {
+    padding-left: 4%; 
+
+}
+
+/* cards */
 
 .card {
-   margin-top: 20px; 
-   margin-bottom: 20px; 
+  max-width: 900px; 
+  width: 90%;
+  margin: auto;
 }
 
-.category-title {
-  text-align: center; 
+.card .title {
+  padding-top: 2%
 }
 
-.experience-image {
-    max-width: 100%;
-    height: auto; 
-    border-radius: 8px;
-    float: left;
-    margin: 20px;
+.introImage {
+  max-width: 100%;
+  height: auto;
 }
 
-.experience-title {
-  text-align: left;
-}
 
-.intro-image {
-  margin-bottom: 30px; 
-}
+/* icons */
+
+.material-icons {
+   position: relative;
+  /* Adjust these values accordingly */
+  top: 3px;
+  right: 5px;
+  }

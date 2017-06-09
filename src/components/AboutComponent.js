@@ -1,18 +1,20 @@
 import React from 'react';
 require('../style/About.css');
+import githubImage from "../images/GitHub.png"
+import linkedImage from "../images/linkedin.png"
+import twitterImage from "../images/twitter.png"
 
+function AboutComponent(props) {
 
-class AboutComponent extends React.Component {
-
-render(){
     return (
-    <div className="about-me">
-        <h1> Hi, I'm from Orlando, FL <br/> 
-        Computer Science BS <br/> 
-        From University of Central Florida </h1>
-    </div>
+        <div>
+            <img src = { githubImage } />
+             <img src = { linkedImage } />
+              <img src = { twitterImage } />
+            <p> dlfkajdlfkaj dslfkjaldkfjadfalkdfj sdjflk </p>
+        </div>
     );
 }
-}
+
 
 export default AboutComponent;

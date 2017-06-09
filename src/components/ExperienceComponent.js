@@ -1,23 +1,32 @@
 import React from 'react';
+require('../style/About.css');
 import { Card, CardActions, CardHeader, CardTitle, CardText, CardMedia } from 'material-ui/Card';
 import FlatButton from 'material-ui/FlatButton';
-require('../style/About.css');
-import codehangar from '../images/codehangar.png';
-import sofriendly from '../images/sofriendly.png';
+import Divider from 'material-ui/Divider';
+import FontIcon from 'material-ui/FontIcon';
+import {lightBlue100} from 'material-ui/styles/colors';
 
 
 function ExperienceComponent(props) {
+
+    const iconStyles = {
+        fontSize:'18px'
+    };
+
     return (
-        <div>
-            <img className="experience-image" src={props.company == "SoFriendly" ? sofriendly : codehangar} />
-            <div className="experience-title">
-                <CardTitle title={props.title} subtitle={props.company} />
-                <CardText >
-                    {props.description}
-                </CardText>
+        <div className="section">
+            <div className="experience-info">
+                <h2> {props.company} </h2>
+                <h3> {props.title} </h3>
+                
+                <p> <FontIcon className="material-icons " style={iconStyles} color={lightBlue100} >date_range</FontIcon>
+                {props.time} </p>
+
+                <p > {props.description}</p>
             </div>
-        </div>
-    )
+            <Divider inset={true} />
+         </div>
+    );
 }
 
 export default ExperienceComponent; 
