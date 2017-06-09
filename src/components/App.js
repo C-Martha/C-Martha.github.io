@@ -6,9 +6,9 @@ require('../style/About.css');
 import { Card, CardHeader, CardMedia, CardTitle } from 'material-ui/Card';
 import Divider from 'material-ui/Divider';
 import FontIcon from 'material-ui/FontIcon';
-import { lightBlue100 } from 'material-ui/styles/colors';
+import { lightBlue500 } from 'material-ui/styles/colors';
 
-import AboutComponent from './AboutComponent';
+import SocialMediaComponent from './SocialMediaComponent';
 import ExperienceComponent from './ExperienceComponent';
 import IntroComponent from './IntroComponent';
 import EducationComponent from './EducationComponent';
@@ -25,35 +25,39 @@ class App extends React.Component {
 
 
         <Card className="card">
-          <h1 className="title "><FontIcon className="material-icons mdi-48px" color={lightBlue100} style={iconStyles}>work</FontIcon>  Work Experience </h1>
-
-          <ExperienceComponent
-            company="SoFriendly"
-            title="Software Developer Intern "
-            time="June - December 2016"
-            description="Developed and Design websites using Webflow and Worpress" />
+          <h1 className="title "><FontIcon className="material-icons mdi-48px" color={lightBlue500} style={iconStyles}>work</FontIcon>  Work Experience </h1>
 
           <ExperienceComponent
             company="Code Hangar"
+            link="http://codehangar.io/"
             title="Software Developer Intern "
-            time="January - March 2017"
+            time="January 2017 - March 2017"
             description="Collaborated in the development of RQLPro, a GUI application for Windows, OSX and Linux. "
           />
+          
+          <ExperienceComponent
+            company="SoFriendly"
+            link="https://www.sofriendly.com/"
+            title="Software Developer Intern "
+            time="June 2016 - December 2016"
+            description="Developed and Design websites using Webflow and Worpress" />
+
         </Card>
 
 
 
         <Card className="card">
-          <h1 className="title"> <FontIcon className="material-icons mdi-48px" color={lightBlue100} style={iconStyles}>school</FontIcon>  Education </h1>
+          <h1 className="title"> <FontIcon className="material-icons mdi-48px" color={lightBlue500} style={iconStyles}>school</FontIcon>  Education </h1>
           <EducationComponent
             university="University of Central Florida"
             degree="Bachelors of Computer Science"
-            graduation="Graduated May 2017" />
+            gradudation="class of 2017"
+            link="http://www.cs.ucf.edu/"/>
 
         </Card>
 
 
-        <AboutComponent />
+        <SocialMediaComponent />
 
       </div>
 

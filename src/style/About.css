@@ -20,11 +20,21 @@ html {
 
 }
 
+.date {
+ color: deepskyblue; 
+}
+
+h2, h3, h1, a {
+  color: grey;
+}
+a {
+  text-decoration: none;
+}
+
 /* cards */
 
 .card {
   max-width: 900px; 
-  width: 90%;
   margin: auto;
 }
 
@@ -41,8 +51,23 @@ html {
 /* icons */
 
 .material-icons {
-   position: relative;
+  position: relative;
   /* Adjust these values accordingly */
   top: 3px;
   right: 5px;
   }
+
+/* social media */
+
+
+.social-content {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: center;
+  }
+
+.social-item {
+  padding: 20px; 
+}
+
