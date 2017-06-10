@@ -8,34 +8,40 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  background: #F8F9F9; 
+  padding: 0px; 
+  margin: 0px; 
+}
 
 .section {
     padding-bottom: 10px;
     padding-left: 5%; 
-
+    padding-right: 5%; 
 }
 
 .title {
     padding-left: 4%; 
-
 }
 
 .date {
- color: deepskyblue; 
+ color: #1A237E; 
 }
 
-h2, h3, h1, a {
+h1, h2, h3, h4, a {
   color: grey;
 }
+
 a {
   text-decoration: none;
 }
 
-/* cards */
+/* card */
 
 .card {
   max-width: 900px; 
   margin: auto;
+  margin-bottom: 10px; 
 }
 
 .card .title {
@@ -48,24 +54,28 @@ a {
 }
 
 
-/* icons */
+/*** icons ***/
 
-.material-icons {
+.material-icons{
   position: relative;
   /* Adjust these values accordingly */
   top: 3px;
   right: 5px;
-  }
+}
+
+.em-wave {
+  font-size: 16px; 
+  margin-right: 5px; 
+}
 
 /* social media */
 
-
-.social-content {
+.social-content, .section-title {
     display: flex; 
     flex-direction: row;
     flex-wrap: wrap; 
     justify-content: center;
-  }
+}
 
 .social-item {
   padding: 20px; 

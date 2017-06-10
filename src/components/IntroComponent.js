@@ -1,6 +1,6 @@
 import React from 'react';
-require('../style/About.css');
-import introImage from '../images/introImage.png'; 
+require('../style/style.css');
+import introImage from '../images/header.png'; 
 
 
 class IntroComponent extends React.Component {
