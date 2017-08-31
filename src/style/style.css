@@ -12,6 +12,7 @@ body {
   background: #F8F9F9; 
   padding: 0px; 
   margin: 0px; 
+  font-family: 'Roboto', serif;
 }
 
 .section {
@@ -81,3 +82,36 @@ a {
   padding: 20px; 
 }
 
+.social-section{
+  width: 100%;
+  display: block;
+  float: left;
+}
+
+
+/* project section */
+
+.project-section{
+  background-color: #00b586; 
+  width: 100%;
+  display: block;
+  float: left;
+
+}
+
+
+.whizClock {
+  margin: 0px; 
+  padding: 0px;  
+  max-width: 100%;
+  height: auto;
+  vertical-align: top;
+
+}
+
+.whiz-card { 
+  max-width: 900px; 
+  margin: auto;
+  padding: 0px; 
+  max-height: 300px; 
+}

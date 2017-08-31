@@ -13,6 +13,7 @@ import SocialMediaComponent from './SocialMediaComponent';
 import ExperienceComponent from './ExperienceComponent';
 import IntroComponent from './IntroComponent';
 import EducationComponent from './EducationComponent';
+import ProjectsComponent from './ProjectsComponent'; 
 
 
 class App extends React.Component {
@@ -30,9 +31,11 @@ class App extends React.Component {
     
     return (
       <div>
+  
+        
         <IntroComponent />
-
         <Card className="card">
+      
           <h1 className="title "><FontIcon className="material-icons mdi-48px" color={indigo900} style={iconStyles}>work</FontIcon>  Work Experience </h1>
           <ExperienceComponent
             company="Code Hangar"
@@ -42,7 +45,7 @@ class App extends React.Component {
             technologies = { technologiesCH }
             description="Joined the team of developers at Code Hangar where I helped contribute to the release of a new version of ReQLPro. ReQLPro is a RethinkDB GUI Client for Mac, Windows, and Linux. While working there I also had the chance to be part of sprint meetings and pair programming sessions. "/>
 
-          <Divider inset={true} />
+          <Divider inset={false} />
 
           <ExperienceComponent
             company="SoFriendly"
@@ -63,7 +66,10 @@ class App extends React.Component {
             link="http://www.cs.ucf.edu/" />
         </Card>
 
-        <SocialMediaComponent />
+
+        <ProjectsComponent/>
+
+        <div className="social-section"><SocialMediaComponent/> </div>
       </div>
 
     );
