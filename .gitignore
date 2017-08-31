@@ -6,3 +6,15 @@ node_modules
 
 # Files marked with gitigx
 *gitigx*
+
+# Visual Studio 2015 cache/options directory
+.vs/
+
+# misc
+.DS_Store
+.env
+npm-debug.log
+
+# dependencies
+node_modules
+build
