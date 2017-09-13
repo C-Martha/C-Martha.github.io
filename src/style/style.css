@@ -69,6 +69,10 @@ a {
   margin-right: 5px; 
 }
 
+.section-title{
+  padding-top: 3%;
+}
+
 /* social media */
 
 .social-content, .section-title {
@@ -79,7 +83,7 @@ a {
 }
 
 .social-item {
-  padding: 20px; 
+  padding: 5px; 
 }
 
 .social-section{
