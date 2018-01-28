@@ -22,12 +22,10 @@ body {
 }
 
 .title {
-    padding-left: 4%; 
+    padding-left: 4%;
+    text-align: center; 
 }
 
-.date {
- color: #1A237E; 
-}
 
 h1, h2, h3, h4, a {
   color: grey;
@@ -103,15 +101,13 @@ a {
 .whizClock {
   margin: 0px; 
   padding: 0px;  
-  max-width: 100%;
+  width: 100%;
   height: auto;
   vertical-align: top;
 
 }
 
 .whiz-card { 
-  max-width: 900px; 
   margin: auto;
   padding: 0px; 
-  max-height: 300px; 
 }
