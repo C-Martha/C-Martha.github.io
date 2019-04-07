@@ -1,4 +1,5 @@
 const webpack = require('webpack');
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 
 module.exports = {
   entry: `${__dirname}/src/index.js`,
@@ -6,6 +7,9 @@ module.exports = {
     path: `${__dirname}/build`,
     publicPath: '/build/',
     filename: 'bundle.js',
+  },
+  optimization: {
+    minimizer: [new UglifyJsPlugin()],
   },
 
   module: {
@@ -21,12 +25,4 @@ module.exports = {
     ],
 
   },
-
-  plugins: process.argv.indexOf('-p') === -1 ? [] : [
-    new webpack.optimize.UglifyJsPlugin({
-      output: {
-        comments: false,
-      },
-    }),
-  ],
 };
