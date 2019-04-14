@@ -1,7 +1,7 @@
 import React from 'react';
 require('../style/style.css');
 import WhizClockImage from "../images/WhizClock.png"
-import { Card, CardHeader, CardMedia, CardTitle } from 'material-ui/Card';
+import { Card } from 'material-ui/Card';
 
 
 
@@ -13,8 +13,6 @@ function ProjectsComponent(props) {
             </Card>
 
         );
-
-
 
 }
 

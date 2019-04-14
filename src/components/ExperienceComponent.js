@@ -1,8 +1,5 @@
 import React from 'react';
-require('../style/style.css');
-import { Card } from 'material-ui/Card';
-import FlatButton from 'material-ui/FlatButton';
-import Divider from 'material-ui/Divider';
+require('../style/style.css');\
 import FontIcon from 'material-ui/FontIcon';
 import Chip from 'material-ui/Chip';
 import injectTapEventPlugin from 'react-tap-event-plugin';

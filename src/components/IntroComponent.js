@@ -1,14 +1,16 @@
 import React from 'react';
 require('../style/style.css');
-import introImage from '../images/header2.png'; 
+import SocialMediaComponent from './SocialMediaComponent';
 
 
 class IntroComponent extends React.Component {
 
     render(){
         return (
-        <div>
-             <img className="introImage" src = { introImage } />
+        <div id="introComponent">
+             <h1 className="helloWorldHeader">//Hello World </h1>
+             <h1 className="nameHeader">Martha Cornejo </h1>
+             <div className="social-section"><SocialMediaComponent/> </div>
         </div>
         );
     }
